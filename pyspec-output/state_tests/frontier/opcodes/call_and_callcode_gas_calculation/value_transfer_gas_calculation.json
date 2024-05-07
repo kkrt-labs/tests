@@ -1,0 +1,790 @@
+{
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_London-state_test-callee_opcode_CALL-caller_gas_limit_36620-is_sufficient_gas_True]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentDifficulty": "0x020000",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b618f0cf1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af1",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "London": [
+                {
+                    "hash": "0xffee80495fd83ac33d0d21bb1843a1fca07717ccf031bf8983bef31f6afb76c0",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x7df09688570178fb5873935eaab9b5fc074a65348690565caad541b9ba6dd48f",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_London-state_test-callee_opcode_CALL-caller_gas_limit_36619-is_sufficient_gas_False]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentDifficulty": "0x020000",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b618f0bf1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af1",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "London": [
+                {
+                    "hash": "0x921595a07a92777e5c97d1a86c7e02ca659d0aa8c4a9ee66bb4767900ce20a2f",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x5e5a901d397dcc07bcaf1a6c4389aa5672840184d63970a016f0293ad168a86f",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_London-state_test-callee_opcode_CALLCODE-caller_gas_limit_11620-is_sufficient_gas_True]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentDifficulty": "0x020000",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b612d64f1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af2",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "London": [
+                {
+                    "hash": "0x1a88137a8fa4545310be68b1c436437ac188806f0261b930aaaf994b1d344ec3",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x2880ba6581dc17132e06c54a8a994231c40706960f6bbaf82f473d9317ef6cf9",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_London-state_test-callee_opcode_CALLCODE-caller_gas_limit_11619-is_sufficient_gas_False]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentDifficulty": "0x020000",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b612d63f1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af2",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "London": [
+                {
+                    "hash": "0x2a3b4e0158fe9b33180236c418c13349f9c14fca71ed6df2387a3cceaa86f834",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0xe83236dcd9ede071b901ad2b0c6c7053046c4f0a68d5127801ce1b9abe8d1da1",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Paris-state_test-callee_opcode_CALL-caller_gas_limit_36620-is_sufficient_gas_True]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b618f0cf1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af1",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Paris": [
+                {
+                    "hash": "0xffee80495fd83ac33d0d21bb1843a1fca07717ccf031bf8983bef31f6afb76c0",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0xe05d7203de8e46f9eb7b2b3defeded9cdeef1651df41b10a0b09df796b2f7802",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Paris-state_test-callee_opcode_CALL-caller_gas_limit_36619-is_sufficient_gas_False]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b618f0bf1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af1",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Paris": [
+                {
+                    "hash": "0x921595a07a92777e5c97d1a86c7e02ca659d0aa8c4a9ee66bb4767900ce20a2f",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x43854800ab4a8b3550a8f60d5dce72077758391b40c8fe3e4841ff5f4c173750",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Paris-state_test-callee_opcode_CALLCODE-caller_gas_limit_11620-is_sufficient_gas_True]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b612d64f1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af2",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Paris": [
+                {
+                    "hash": "0x1a88137a8fa4545310be68b1c436437ac188806f0261b930aaaf994b1d344ec3",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x4d37717ca9ecb216c97449c83c2b92f699813d9014bddb63e30cd47f98c27f00",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Paris-state_test-callee_opcode_CALLCODE-caller_gas_limit_11619-is_sufficient_gas_False]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b612d63f1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af2",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Paris": [
+                {
+                    "hash": "0x2a3b4e0158fe9b33180236c418c13349f9c14fca71ed6df2387a3cceaa86f834",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x4b7ddef4cd4d1100ad959c7dcf3532dcbae5533ad02db1bb3a3ceb802e0dd2fa",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Shanghai-state_test-callee_opcode_CALL-caller_gas_limit_36620-is_sufficient_gas_True]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b618f0cf1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af1",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Shanghai": [
+                {
+                    "hash": "0xffee80495fd83ac33d0d21bb1843a1fca07717ccf031bf8983bef31f6afb76c0",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x85d84b3615e624d6b90900a576093b80f14da09814ee32097a59960898f4f4c2",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Shanghai-state_test-callee_opcode_CALL-caller_gas_limit_36619-is_sufficient_gas_False]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b618f0bf1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af1",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Shanghai": [
+                {
+                    "hash": "0x921595a07a92777e5c97d1a86c7e02ca659d0aa8c4a9ee66bb4767900ce20a2f",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0xcee4fecaa31241865674c531de28afcb373a7e21786b2cc5ec289b145475d68b",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Shanghai-state_test-callee_opcode_CALLCODE-caller_gas_limit_11620-is_sufficient_gas_True]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b612d64f1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af2",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Shanghai": [
+                {
+                    "hash": "0x1a88137a8fa4545310be68b1c436437ac188806f0261b930aaaf994b1d344ec3",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0x3a4e7ce6c4466afd3bda3be67b278e6be1bcbcd7d3eef673c9b6854c2fac8be9",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    },
+    "tests/frontier/opcodes/test_call_and_callcode_gas_calculation.py::test_value_transfer_gas_calculation[fork_Shanghai-state_test-callee_opcode_CALLCODE-caller_gas_limit_11619-is_sufficient_gas_False]": {
+        "env": {
+            "currentCoinbase": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+            "currentGasLimit": "0x016345785d8a0000",
+            "currentNumber": "0x01",
+            "currentTimestamp": "0x03e8",
+            "currentRandom": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "currentDifficulty": "0x00",
+            "currentBaseFee": "0x07"
+        },
+        "pre": {
+            "0x000000000000000000000000000000000000000a": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006000600b612d63f1600055",
+                "storage": {}
+            },
+            "0x000000000000000000000000000000000000000b": {
+                "nonce": "0x01",
+                "balance": "0x03",
+                "code": "0x60006000600060006001600c5af2",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x0ba1a9ce",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "transaction": {
+            "nonce": "0x00",
+            "gasPrice": "0x07",
+            "gasLimit": [
+                "0x07a120"
+            ],
+            "to": "0x000000000000000000000000000000000000000a",
+            "value": [
+                "0x01"
+            ],
+            "data": [
+                "0x"
+            ],
+            "sender": "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b",
+            "secretKey": "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8"
+        },
+        "post": {
+            "Shanghai": [
+                {
+                    "hash": "0x2a3b4e0158fe9b33180236c418c13349f9c14fca71ed6df2387a3cceaa86f834",
+                    "logs": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+                    "txbytes": "0xf86080078307a12094000000000000000000000000000000000000000a018026a006575b88076d23a09bb8dba0d73d99b8e500a883f341fee78184e458b00db7e8a026be9e5301ade58afbb58bed84fdb2709288b0ec3d2d67a6d1e7530a07c8e343",
+                    "indexes": {
+                        "data": 0,
+                        "gas": 0,
+                        "value": 0
+                    }
+                }
+            ]
+        },
+        "_info": {
+            "hash": "0xee35ba0500cfc101e7a620a1d2cbc9e9128124dd45c8ef8d858b48b04aed3776",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507"
+        }
+    }
+}

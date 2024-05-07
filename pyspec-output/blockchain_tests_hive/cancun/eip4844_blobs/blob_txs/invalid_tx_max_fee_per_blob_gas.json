@@ -1,0 +1,239 @@
+{
+    "tests/cancun/eip4844_blobs/test_blob_txs.py::test_invalid_tx_max_fee_per_blob_gas[fork_Cancun-blockchain_test_hive-account_balance_modifier_1000000000-insufficient_max_fee_per_blob_gas]": {
+        "network": "Cancun",
+        "genesisBlockHeader": {
+            "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "coinbase": "0x0000000000000000000000000000000000000000",
+            "stateRoot": "0xfa675213e71b1e8e1281e3af588a3f932ad441a2cae83749704efeaba2c8d8c7",
+            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "difficulty": "0x00",
+            "number": "0x00",
+            "gasLimit": "0x016345785d8a0000",
+            "gasUsed": "0x00",
+            "timestamp": "0x00",
+            "extraData": "0x00",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "baseFeePerGas": "0x07",
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "blobGasUsed": "0x00",
+            "excessBlobGas": "0x280000",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "0x098a9e5038e62c876150a80a1bde27ee77587355ed5643172493d9410c7002fd"
+        },
+        "pre": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3b9f0839",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                "nonce": "0x00",
+                "balance": "0x3b9aca00",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "postState": {
+            "0x0000000000000000000000000000000000000200": {
+                "nonce": "0x00",
+                "balance": "0x01",
+                "code": "0x",
+                "storage": {}
+            },
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {
+                    "0x0c": "0x0c"
+                }
+            },
+            "0x8a0a19589531694250d570040a0c4b74576919b8": {
+                "nonce": "0x01",
+                "balance": "0x3b908bc7",
+                "code": "0x",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3b9f0839",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "engineNewPayloads": [
+            {
+                "executionPayload": {
+                    "parentHash": "0x098a9e5038e62c876150a80a1bde27ee77587355ed5643172493d9410c7002fd",
+                    "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                    "stateRoot": "0x900628a7243d93bbb26c708cea7d363bcb126eb216a5992d7d9b462eb9f2d642",
+                    "receiptsRoot": "0xeaa8c40899a61ae59615cf9985f5e2194f8fd2b57d273be63bde6733e89b12ab",
+                    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "blockNumber": "0x1",
+                    "gasLimit": "0x16345785d8a0000",
+                    "gasUsed": "0x5208",
+                    "timestamp": "0xc",
+                    "extraData": "0x",
+                    "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "baseFeePerGas": "0x7",
+                    "blobGasUsed": "0x80000",
+                    "excessBlobGas": "0x220000",
+                    "blockHash": "0xb91acb72b67e251fc7a473409d8dc91a4aa1c2bf78a6c733ec02defc9943f313",
+                    "transactions": [
+                        "0x03f8e9018080078252089400000000000000000000000000000000000002000180c001f884a00100000000000000000000000000000000000000000000000000000000000000a00100000000000000000000000000000000000000000000000000000000000001a00100000000000000000000000000000000000000000000000000000000000002a0010000000000000000000000000000000000000000000000000000000000000301a09d3b9819ff46b57cd1b81d723626c8c7ef3ca97f4d2f964f57fc8516123ad7d7a026e752e7b657042b3ba543dc8a515772819deed8e646634f3625191b51ef448c"
+                    ],
+                    "withdrawals": []
+                },
+                "version": "3",
+                "expectedBlobVersionedHashes": [
+                    "0x0100000000000000000000000000000000000000000000000000000000000000",
+                    "0x0100000000000000000000000000000000000000000000000000000000000001",
+                    "0x0100000000000000000000000000000000000000000000000000000000000002",
+                    "0x0100000000000000000000000000000000000000000000000000000000000003"
+                ],
+                "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000"
+            },
+            {
+                "executionPayload": {
+                    "parentHash": "0xb91acb72b67e251fc7a473409d8dc91a4aa1c2bf78a6c733ec02defc9943f313",
+                    "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                    "stateRoot": "0x242a63fa2afe3294022ba3f52bb2ffca13875b56352f17be8dcdfa72db330e4f",
+                    "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+                    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "blockNumber": "0x2",
+                    "gasLimit": "0x16345785d8a0000",
+                    "gasUsed": "0x0",
+                    "timestamp": "0x18",
+                    "extraData": "0x",
+                    "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "baseFeePerGas": "0x7",
+                    "blobGasUsed": "0x20000",
+                    "excessBlobGas": "0x240000",
+                    "blockHash": "0x3938dfd04f5f6d281529f17d80038b0e9edda60e39c596527e4ef0df9c2522c1",
+                    "transactions": [
+                        "0x03f885018080078252089400000000000000000000000000000000000001000180c001e1a0010000000000000000000000000000000000000000000000000000000000000001a0a8f4757869fbb831ba4ed3a7c8f868b0e2e0c1eda97937aab035560fffdedf3ca019d9b041540e3d6f5f56dc29deb8834a08171e92037cf567b922357e70f8e54a"
+                    ],
+                    "withdrawals": []
+                },
+                "version": "3",
+                "expectedBlobVersionedHashes": [
+                    "0x0100000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "validationError": "TransactionException.INSUFFICIENT_MAX_FEE_PER_BLOB_GAS"
+            }
+        ],
+        "engineFcuVersion": "3",
+        "_info": {
+            "hash": "0xf4497d43a9d471235453dfa70d3671c6b56dcb07cc02cb1e78a77e51317cadc8",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
+            "reference-spec-version": "f0eb6a364aaf5ccb43516fa2c269a54fb881ecfd"
+        }
+    },
+    "tests/cancun/eip4844_blobs/test_blob_txs.py::test_invalid_tx_max_fee_per_blob_gas[fork_Cancun-blockchain_test_hive-account_balance_modifier_1000000000-invalid_max_fee_per_blob_gas]": {
+        "network": "Cancun",
+        "genesisBlockHeader": {
+            "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "uncleHash": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "coinbase": "0x0000000000000000000000000000000000000000",
+            "stateRoot": "0xe4a04a57a3865f92a21f069dde95a492a2933ec833d9ac9041d101ab164c1b33",
+            "transactionsTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "receiptTrie": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "bloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "difficulty": "0x00",
+            "number": "0x00",
+            "gasLimit": "0x016345785d8a0000",
+            "gasUsed": "0x00",
+            "timestamp": "0x00",
+            "extraData": "0x00",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "baseFeePerGas": "0x07",
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "blobGasUsed": "0x00",
+            "excessBlobGas": "0x00",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "hash": "0xdd61cc81ea542a027660080b2ba0fe18e48dca7c1807507fdb72124a3b7504c0"
+        },
+        "pre": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3b9d0839",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "postState": {
+            "0x000f3df6d732807ef1319fb7b8bb8522d0beac02": {
+                "nonce": "0x01",
+                "balance": "0x00",
+                "code": "0x3373fffffffffffffffffffffffffffffffffffffffe14604d57602036146024575f5ffd5b5f35801560495762001fff810690815414603c575f5ffd5b62001fff01545f5260205ff35b5f5ffd5b62001fff42064281555f359062001fff015500",
+                "storage": {}
+            },
+            "0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
+                "nonce": "0x00",
+                "balance": "0x3b9d0839",
+                "code": "0x",
+                "storage": {}
+            }
+        },
+        "engineNewPayloads": [
+            {
+                "executionPayload": {
+                    "parentHash": "0xdd61cc81ea542a027660080b2ba0fe18e48dca7c1807507fdb72124a3b7504c0",
+                    "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
+                    "stateRoot": "0x51704acb40513d28b94346f6fc8a92eab0b41f201a130f2b49efbab7ccc862d3",
+                    "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+                    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+                    "blockNumber": "0x1",
+                    "gasLimit": "0x16345785d8a0000",
+                    "gasUsed": "0x0",
+                    "timestamp": "0xc",
+                    "extraData": "0x",
+                    "prevRandao": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "baseFeePerGas": "0x7",
+                    "blobGasUsed": "0x20000",
+                    "excessBlobGas": "0x0",
+                    "blockHash": "0x10f6e56581d45416420f2e4b4604fbc843d48d0fde3b48d972d0631975c05c85",
+                    "transactions": [
+                        "0x03f885018080078252089400000000000000000000000000000000000001000180c080e1a0010000000000000000000000000000000000000000000000000000000000000080a0df26254112c6a69f0cf31138ec90f834de7b3ffb6241107682ddb0fc5532030ca02e424096551ad5dc99439167e2bf4bb3de61f86e752a85b448d339d77bcda1b0"
+                    ],
+                    "withdrawals": []
+                },
+                "version": "3",
+                "expectedBlobVersionedHashes": [
+                    "0x0100000000000000000000000000000000000000000000000000000000000000"
+                ],
+                "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "validationError": "TransactionException.INSUFFICIENT_MAX_FEE_PER_BLOB_GAS"
+            }
+        ],
+        "engineFcuVersion": "3",
+        "_info": {
+            "hash": "0x21484e5c8774d0506d8d93045d30a43689218bc610077a55adfb217b45d48aae",
+            "comment": "`execution-spec-tests` generated test",
+            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507",
+            "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
+            "reference-spec-version": "f0eb6a364aaf5ccb43516fa2c269a54fb881ecfd"
+        }
+    }
+}
