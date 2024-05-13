@@ -57,7 +57,7 @@
                 "executionPayload": {
                     "parentHash": "0x93a8f642e7619d3fbfe682dfdeaa06b70582703e21b8d94f85f13e9a8b9578db",
                     "feeRecipient": "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-                    "stateRoot": "0xcc7b88d58927ebfd44f66b63ec5a29eb8661cedeaf8a9d563f6f7408b3c42fce",
+                    "stateRoot": "0xbd0d91f6864b180f8e1c191e6bf66ce81c787bf83cfc175ad26b64fb3fa15052",
                     "receiptsRoot": "0xeaa8c40899a61ae59615cf9985f5e2194f8fd2b57d273be63bde6733e89b12ab",
                     "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
                     "blockNumber": "0x1",
@@ -69,7 +69,7 @@
                     "baseFeePerGas": "0x7",
                     "blobGasUsed": "0x20000",
                     "excessBlobGas": "0xe0000",
-                    "blockHash": "0x9b5af5a719ed59157d3f4436e9033d68b36029b1bbdb43a25ddf76fe1cd8b627",
+                    "blockHash": "0x6f6fac857fecf1102286de3e22554573b170462d85ac74a82b72858f6de544ff",
                     "transactions": [
                         "0x03f872018080078307a120800180c001e1a0010000000000000000000000000000000000000000000000000000000000000001a0990fd9e8068282f2f657fda1fc17ba168b6ccb064a796796a04647268efdc0baa05497398a0d1bfe95930e450561b2a88ece16b0212a4784e92b0a7cd3921852c4"
                     ],
@@ -85,9 +85,9 @@
         ],
         "engineFcuVersion": "3",
         "_info": {
-            "hash": "0x0d757425ac912b945f39c6ed9c6d57f2fef6ec4a94c136c2f6aea93842436f8a",
+            "hash": "0x12fe9599cd4cd0b2c5ad72bfd56a94b86fa616e4dd27b9da8e593b090862317b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.14.1-unstable-d6e91e2e-20240507",
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4844.md",
             "reference-spec-version": "f0eb6a364aaf5ccb43516fa2c269a54fb881ecfd"
         }
