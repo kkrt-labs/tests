@@ -188,7 +188,7 @@
         "_info": {
             "hash": "0xc8d9985b97b3bb96a3fe159e43d68cc3adac0177df5c2d7155dbf69298061271",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_ConstantinopleFix-blockchain_test]": {
@@ -380,7 +380,7 @@
         "_info": {
             "hash": "0xd19d6a9a18d44d184e797db588168889df5a4e7d010c8081544717fd8327432b",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_Istanbul-blockchain_test]": {
@@ -572,7 +572,7 @@
         "_info": {
             "hash": "0x45516782f13cfd8e76eab26bb50f9216faf5919f0bc6a53a7ee21ed3a3d31942",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_Berlin-blockchain_test]": {
@@ -764,7 +764,7 @@
         "_info": {
             "hash": "0x13c78ce2b8c0fd1459845a0ac5e3bda42708d852bed3e056c784131a3467a2de",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_London-blockchain_test]": {
@@ -958,7 +958,7 @@
         "_info": {
             "hash": "0xe97d52424f8bdab0e9a105667d9ebd56ebfde3e5631bb8d8153628af50c00a88",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_Paris-blockchain_test]": {
@@ -1152,7 +1152,7 @@
         "_info": {
             "hash": "0xb6f1986921c6e9e214d1743631a7f11f18efdcc538b995595be0b4459c8b532d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_Shanghai-blockchain_test]": {
@@ -1349,7 +1349,7 @@
         "_info": {
             "hash": "0x1ef8d82517aad2e74d43d0c4acc645c21a357d4fdf683867b7d2305bb25e0e45",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/paris/security/test_selfdestruct_balance_bug.py::test_tx_selfdestruct_balance_bug[fork_Cancun-blockchain_test]": {
@@ -1566,7 +1566,7 @@
         "_info": {
             "hash": "0x4c24113f78b7826d5e7c591991a879ac3afac7fbbeae375ecc6e408e13cd904d",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     }
 }

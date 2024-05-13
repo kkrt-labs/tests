@@ -147,7 +147,7 @@
         "_info": {
             "hash": "0x2e38339a716dc98fc9096b11fa7b273371f8cd9925cc17b38c210167256c3c85",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     },
     "tests/frontier/opcodes/test_selfdestruct.py::test_double_kill[fork_Homestead-blockchain_test]": {
@@ -298,7 +298,7 @@
         "_info": {
             "hash": "0xa2ecd896eda4bf0412ddccc16f007557d3554010aeeea3c7176c66e22745fc1e",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable"
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510"
         }
     }
 }
