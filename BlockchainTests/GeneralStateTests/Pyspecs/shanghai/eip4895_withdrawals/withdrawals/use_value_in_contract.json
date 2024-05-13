@@ -168,7 +168,7 @@
         "_info": {
             "hash": "0x30fc6e1168c4e5cd56896eda2e5e33dda73c4ba47ad63b6dc4d9d4e00e89fcd1",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable",
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4895.md",
             "reference-spec-version": "81af3b60b632bc9c03513d1d137f25410e3f4d34"
         }
@@ -366,7 +366,7 @@
         "_info": {
             "hash": "0x7586a15b78738b32f25c49a6216204bcc9b839044a2891ecb2cdd11e94854b2f",
             "comment": "`execution-spec-tests` generated test",
-            "filling-transition-tool": "evm version 1.13.14-stable",
+            "filling-transition-tool": "evm version 1.14.4-unstable-44a50c9f-20240510",
             "reference-spec": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4895.md",
             "reference-spec-version": "81af3b60b632bc9c03513d1d137f25410e3f4d34"
         }
